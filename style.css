@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    margin: 40px;
+    display: flex;
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .btn-nav{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+nav h3{
+    font-size: 25px;
+}
+
+.hero-img{
+    width: 700px;
+    height: 700px;
+}
+
+.section-one{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content:center;
+    margin-left: 50px;
+
+}
+
+.desc{
+    
+}
+
+h1{
+    font-weight: 900;
+    font-size: 50px;    
+}
+
+p{
+    font-weight: 100;
+    margin-top: 20px;
+    line-height: 1.4rem;
+}
+
+.btn-one{
+    background-color: rgb(240, 105, 105);
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    border: none;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.sec-2{
+    background-color: rgb(220, 220, 220, .3);
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    
+}
+
+.card{
+    background-color: rgb(240, 105, 105);
+    width: 350px;
+    height: 280px;
+    border-radius: 20px;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    
+    
+}
+
+.card-text{
+   padding: 80px 20px;
+   line-height: 2rem;
+}
+
+.icon-card{
+    background-color: white;
+    width: 350px;
+    height: 280px;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    position: relative;
+}
+
+.icon-img{
+    width: 40px;
+    position: absolute;
+    top: -10px;
+}
+
+.icon-card h3{
+    font-weight: 900;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.card-btn{
+    color: rgb(241, 14, 14);
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;
+    
+}
+
+footer{
+    background-color: darkslateblue;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+footer h3{
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+.btn-two{
+    background-image: linear-gradient(purple, rgb(255, 192, 247));
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    border: none;
+    font-weight: 500;
+}
